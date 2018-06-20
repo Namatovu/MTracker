@@ -1,37 +1,35 @@
 <html>
-    <head>
-            <link rel='stylesheet' href='help.css'>
-    </head>
-        <body>
+<head>
+    <link rel='stylesheet' href='mystyle.css'>
+    <title></title>
+</head>
+<body>
+    <div class="title"><h1>Maintenance Tracker</h1></div>
+    <div class="container">
+<div class="left">
 
-            <div id="sidebar">
+    <img  class="image" src="download.jpg" alt="mm">
 
-            
-                            <h1>MAINTENANCE TRACKER</h1>
-                            
-                    
-                            <br>
-                    <h2>CREATE AN ACCOUNT</h2>
-                    <p>Please fill in this form to create an account.</p>
-                
-                    <form>              
-                       
-                      <label for="n"><b>Username</b></label>
-                      <input type="text"  placeholder="Enter Username"id="name"  name="n"required>
-     
-                        <br>
-                        <label for="t"><b>Password</b></label>
-                        <input type="text" placeholder="Enter Password"id="pass"  name="t"required>
-                         <br>
-                        <br>
-                         <button   type="submit" onClick="info();">REGISTER</button><br/>
-                         </form>
-                         
-                       
-                    </form>
-                    <p id="connt">Already have an account? <a id="cont" href="help.html">Sign in</a>.</p>
-                    </div>
-    
-                    
-          </body>
+</div>
+<div class="right">
+  
+  <form class="form">
+
+    <p>Username</p>
+    <input type="text"  placeholder="Username"id="name"  required>
+
+  <p>Password</p>
+      <input type="password" placeholder="......."id="pass" required>
+       <br>
+       <input  type="submit" onClick="#info();" value="login">
+       
+    <a  href="Create.html"><p>Dont have an account?</p> </a>
+
+</form>
+
+</div>
+    </div>
+
+</body>
+
 </html>

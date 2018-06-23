@@ -75,8 +75,7 @@ color:green;
   
  
 }
-.form input[type="text"],
-.form input[type="password"]
+.dj
 {
 
   border:none;
@@ -84,7 +83,7 @@ color:green;
   outline: none;
   height:40px;
 }
-.form input[type="submit"]{
+.sub{
 
   border:none;
   outline: none;
@@ -94,9 +93,40 @@ color:green;
   width:150px;
   cursor:pointer;
 }
-.form input[type="submit"]:hover{
+.sub:hover{
   background:green;
 }
+.djj{
+  border:none;
+  border-bottom:2px solid green;
+  outline: none;
+  padding:10px;
+  margin:5px;
+
+  }
+  .jjf{
+    text-align: center;
+  }
+.subb{
+  border:none;
+  outline: none;
+  height:40px;
+  color:white;
+  background:#262626;
+
+  cursor:pointer;
+  padding: 10px;
+  margin:10px;
+  }
+  .formm{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  bod{
+    text-align: center;
+  }
 
 .contain{
   width:60%;
@@ -132,7 +162,7 @@ button {
   
   border: none;
   cursor: pointer;
-  width: 10%;
+  
   border-radius: 8px;
   height:40px;
   font-size: 16px;
@@ -140,6 +170,8 @@ button {
 #connt{
   background-color: #f1f1f1;
   text-align: center;
+  paddig:0px;
+  margin:0px;
 }
 h2,h3{
  margin:10px;
@@ -162,9 +194,7 @@ color:white;
 font-size:20px;
   background-color:green;
   cursor:pointer;
-  width:10%;
-  height:10%;
-  border-radius: 8px;
+border-radius: 8px;
   }
   #req{
     display: inline-block;
@@ -192,12 +222,10 @@ font-size:20px;
 
  }
  .leftt{
-  float:left;
-  width:50%;
-  height:450px;
   background-color:#ccc;
   box-sizing: border-box;
-
+padding:10px;
+margin:0px;
 
  }
  .rightt{
@@ -224,8 +252,8 @@ padding:1opx;
   font-size:15px;
     background-color:green;
     cursor:pointer;
-    width:25%;
-    height:8%;
+    
+    
     border-radius: 8px;
     padding:5px;
     margin:0px;
@@ -269,4 +297,19 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
